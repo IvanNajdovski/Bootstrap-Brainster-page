@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container ">
+    <a class="navbar-brand" href="#">Glozzom</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav fixed-right nav__list">
+            <li class="nav-item ">
+                <a class="nav-link text-uppercase" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-uppercase" href="/about">About Us</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-uppercase" href="#">Services</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-uppercase" href="#">Blog</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-uppercase" href="#">Contact</a>
+            </li>
+
+
+        </ul>
+    </div>
+    </div>
+</nav>
+
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade carousel-castom" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators ">
+        <li data-target="#carousel-example-2 nav__indicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view pic__size">
+                <img class="d-block w-100" src="img/image1.jpg" alt="First slide">
+                <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption text__container text-right">
+                <h1 class="h1-responsive ">Heading One</h1>
+                <p class="pull-right ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet corporis cum cupiditate deleniti enim eos illum labore, natus, neque provident quis recusandae rerum, similique sint. Aut mollitia quae tempore.</p>
+                <button class="btn btn-danger ">Sign Up Now</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view pic__size">
+                <img class="d-block w-100" src="img/image2.jpg" alt="Second slide">
+                <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption text__container text-right">
+                <h1 class="h1-responsive ">Heading One</h1>
+                <p class="pull-right ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet corporis cum cupiditate deleniti enim eos illum labore, natus, neque provident quis recusandae rerum, similique sint. Aut mollitia quae tempore.</p>
+                <button class="btn btn-danger ">Sign Up Now</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view pic__size">
+                <img class="d-block w-100" src="img/image3.jpg" alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption text__container text-right">
+                <h1 class="h1-responsive ">Heading One</h1>
+                <p class="pull-right ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet corporis cum cupiditate deleniti enim eos illum labore, natus, neque provident quis recusandae rerum, similique sint. Aut mollitia quae tempore.</p>
+                <button class="btn btn-danger ">Sign Up Now</button>
+            </div>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 text-center pd-bg-1">
+            <i class="fas fa-cog fas-1"></i>
+            <h1>Turning Gears</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aspernatur atque delectus dolor dolorem eum</p>
+        </div>
+        <div class="col-lg-4 text-center pd-bg-1">
+            <i class="fas fa-cloud fas-1"></i>
+            <h1>Sending Data</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aspernatur atque delectus dolor dolorem eum</p>
+        </div>
+        <div class="col-lg-4 text-center pd-bg-1">
+            <i class="fas fa-cart-plus fas-1"></i>
+            <h1>Making Money</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aspernatur atque delectus dolor dolorem eum</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid container-background text-center">
+    <h1>Are you ready to get startet</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi facere illum tempora. Asperiores, at beatae debitis delectus, distinctio doloremque esse et fugiat harum, libero neque odit qui tempore velit voluptatibus!</p>
+</div>
+<div class="container pd-bg">
+    <div class="row">
+        <div class="col-lg-6">
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquid beatae, deserunt ex molestias natus nostrum officiis possimus tempora. Dolore facilis id laudantium minus mollitia quidem repellat sed voluptate.</p>
+            <button class="btn button">Learn More</button>
+        </div>
+        <div class="col-lg-6">
+            <img src="img/laptop.png" class="img-fluid" alt="">
+        </div>
+    </div>
+</div>
+<div class="container-fluid container-background-2 text-center">
+
+        <button>
+            <i class="fas fa-play"></i>
+
+        </button>
+    <div class="row">
+        <h1 class="col-lg-12">See What We Do</h1>
+    </div>
+
+</div>
+<div class="container text-center pd-bg">
+   <h1>Photo Gallery</h1>
+    <p>Check out our photos</p>
+    <div class="row gallery-row">
+        <div class="col-lg-4">
+            <img src="img/business1.jpg" class="img-fluid card-img-top" style="object-fit: cover" alt="">
+        </div>
+        <div class="col-lg-4">
+            <img src="img/business7.jpg" class="img-fluid card-img-top" style="object-fit: cover" alt="">
+        </div>
+        <div class="col-lg-4">
+            <img src="img/business3.jpg" class="img-fluid card-img-top" style="object-fit: cover" alt="">
+        </div>
+    </div>
+    <div class="row gallery-row">
+        <div class="col-lg-4">
+            <img src="img/business4.jpg" class="img-fluid card-img-top" alt="">
+        </div>
+        <div class="col-lg-4">
+            <img src="img/business8.jpg" class="img-fluid card-img-top" alt="">
+        </div>
+        <div class="col-lg-4">
+            <img src="img/business6.png" class="img-fluid card-img-top" alt="">
+        </div>
+    </div>
+</div>
+<div class="container-fluid text-center bg-dark pd-bg newsletter">
+    <h1>Sign Up To Our Newsletter</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolores eaque eius error et excepturi expedita, explicabo ipsam magni minus mollitia nihil nisi, quasi reprehenderit sequi! Error facere illo nam.</p>
+    <form action="#" class="inline">
+
+        <div class="form-group col form-bottom">
+        <input type="text" class="input-form" placeholder="Enter Name">
+            <input type="email" class="input-form" placeholder="Enter Email">
+            <button class="btn btn-success btn-xs button-button">Submit</button>
+    </div>
+
+
+    </form>
+
+</div>
+<div class="container-fluid text-center" style="background-color: black; color: #fff;padding: 1rem;">
+    <p>Copyright@2018</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

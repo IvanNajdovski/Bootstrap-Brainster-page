@@ -1,0 +1,21 @@
+.image-div{
+  transform: translateY(-2rem);
+}
+.img-container{
+ padding: 1rem 0;
+
+  &>*{
+    padding: .6rem 0;
+  }
+}
+.text-color{
+  background-color: #EB0038;
+  padding: 1rem;
+  &>*{
+    color: #fff;
+
+  }
+  .fas-2{
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,182 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  box-sizing: border-box; }
+
+.nav__list li > a {
+  font-weight: 500;
+  padding: .5rem 1rem;
+  margin-left: 1rem; }
+  .nav__list li > a:hover, .nav__list li > a:focus {
+    border-left: 1px solid grey; }
+
+.carousel-castom {
+  height: 70%; }
+
+.pic__size {
+  height: 100vh; }
+  @media only screen and (max-width: 75em) {
+    .pic__size {
+      height: 100%; } }
+
+.text__container {
+  transform: translateY(-50%);
+  bottom: 0;
+  top: 50%; }
+  .text__container > *:not(:last-child) {
+    padding-bottom: 1.5rem; }
+    @media only screen and (max-width: 50em) {
+      .text__container > *:not(:last-child) {
+        padding-bottom: 1rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .text__container > *:not(:last-child) {
+        display: none; } }
+  .text__container h1 {
+    font-size: 8rem; }
+    @media only screen and (max-width: 75em) {
+      .text__container h1 {
+        font-size: 5.5rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .text__container h1 {
+        font-size: 4.5rem; } }
+    @media only screen and (max-width: 50em) {
+      .text__container h1 {
+        font-size: 3rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .text__container h1 {
+        display: none; } }
+  .text__container p {
+    font-size: 1.5rem; }
+    @media only screen and (max-width: 75em) {
+      .text__container p {
+        font-size: 1.2rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .text__container p {
+        font-size: 1rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .text__container p {
+        display: none; } }
+  .text__container button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem; }
+    @media only screen and (max-width: 75em) {
+      .text__container button {
+        font-size: 1.2rem; } }
+    @media only screen and (max-width: 50em) {
+      .text__container button {
+        font-size: 1rem;
+        padding: .3rem 1rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .text__container button {
+        display: none; } }
+
+.container-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/lights.jpg");
+  background-position: top left;
+  padding: 2rem; }
+  .container-background-3 {
+    background-image: url("../img/image1.jpg");
+    background-size: cover;
+    background-position: 25% 0; }
+    .container-background-3 h1 {
+      color: #fff;
+      padding-top: 2rem; }
+    .container-background-3 p {
+      color: #fff; }
+  .container-background-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/media.jpg");
+    padding: 2rem;
+    background-position: 75% 25%; }
+    .container-background-2 button {
+      padding-top: 2rem;
+      font-size: 3rem;
+      color: #fff;
+      background-color: transparent;
+      border: none; }
+    .container-background-2 h1 {
+      font-weight: 400;
+      font-size: 3rem;
+      color: #fff;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #fff; }
+  .container-background > * {
+    color: #fff;
+    padding: .5rem; }
+  .container-background h1 {
+    font-size: 3rem; }
+  .container-background p {
+    font-size: 1.5rem; }
+
+.gallery-row {
+  padding-bottom: 1rem; }
+  .gallery-row > *:not(:last-child) {
+    padding-bottom: 1rem; }
+
+.card-img-top {
+  height: 15rem;
+  object-fit: cover; }
+
+.input-form {
+  padding: .45rem 1rem;
+  border: none;
+  border-radius: 4px; }
+
+.newsletter h1 {
+  color: #fff; }
+
+.newsletter p {
+  color: #fff; }
+
+.pd-bg-1 {
+  padding: 4rem; }
+  @media only screen and (max-width: 75em) {
+    .pd-bg-1 {
+      padding: 2rem; } }
+  .pd-bg-1 > * {
+    padding: .5rem; }
+  .pd-bg-1 h1 {
+    font-size: 2rem; }
+  .pd-bg-1 p {
+    font-size: 1rem; }
+
+.fas-1 {
+  font-size: 3rem; }
+
+.pd-bg {
+  padding: 4rem; }
+
+.button {
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  color: red; }
+  .button-button {
+    transform: translateY(-2px); }
+    @media only screen and (max-width: 650px) {
+      .button-button {
+        transform: translateY(0); } }
+
+.form-bottom > *:not(:last-child) {
+  margin-bottom: 1rem; }
+
+.image-div {
+  transform: translateY(-2rem); }
+
+.img-container {
+  padding: 1rem 0; }
+  .img-container > * {
+    padding: .6rem 0; }
+
+.text-color {
+  background-color: #EB0038;
+  padding: 1rem; }
+  .text-color > * {
+    color: #fff; }
+  .text-color .fas-2 {
+    font-size: 2.5rem; }

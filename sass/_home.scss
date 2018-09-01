@@ -1,0 +1,169 @@
+.nav{
+
+
+
+  &__list li>a{
+
+    font-weight: 500;
+    padding: .5rem 1rem;
+    margin-left: 1rem;
+    &:hover,
+    &:focus{
+      border-left: 1px solid grey;
+    }
+
+  }
+}
+.carousel-castom{
+  height: 70%;
+}
+.pic{
+
+  &__size{
+    height: 100vh;
+    @media only screen and (max-width: $bp-largest){
+      height: 100%;
+    }
+  }
+}
+.text{
+  &__container{
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 50%;
+    &>*:not(:last-child){
+      padding-bottom: 1.5rem;
+      @media only screen and (max-width: $bp-medium){
+        padding-bottom: 1rem;
+      }
+      @media only screen and (max-width: $bp-small){
+        display: none;
+      }
+    }
+    & h1{
+      font-size: 8rem;
+      @media only screen and (max-width: $bp-largest){
+        font-size: 5.5rem;
+      }
+      @media only screen and (max-width: $bp-large){
+        font-size: 4.5rem;
+      }
+      @media only screen and (max-width: $bp-medium){
+        font-size: 3rem;
+      }
+      @media only screen and (max-width: $bp-small){
+        display: none;
+      }
+    }
+    & p{
+      font-size: 1.5rem;
+      @media only screen and (max-width: $bp-largest){
+        font-size: 1.2rem;
+      }
+      @media only screen and (max-width: $bp-large){
+        font-size: 1rem;
+      }
+      @media only screen and (max-width: $bp-small){
+        display: none;
+      }
+    }
+    & button{
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      @media only screen and (max-width: $bp-largest){
+        font-size: 1.2rem;
+      }
+      @media only screen and (max-width: $bp-medium){
+        font-size: 1rem;
+        padding: .3rem 1rem;
+      }
+      @media only screen and (max-width: $bp-small){
+        display: none;
+      }
+
+    }
+
+  }
+}
+.container-background{
+  background-image: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0,0.8)),url("../img/lights.jpg");
+  //background-size: cover;
+  background-position: top left;
+  padding: 2rem;
+
+  &-3{
+    background-image: url("../img/image1.jpg");
+    background-size: cover;
+    background-position: 25% 0;
+    
+    & h1{
+      color: #fff;
+      padding-top: 2rem;
+    }
+    & p{
+      color: #fff;
+    }
+  }
+
+  &-2{
+    background-image: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0,0.8)),url("../img/media.jpg");
+    padding: 2rem;
+    //background-size: cover;
+    background-position: 75% 25%;
+
+    & button{
+      padding-top: 2rem;
+      font-size: 3rem;
+      color: #fff;
+      background-color: transparent;
+      border: none;
+    }
+    & h1{
+      font-weight: 400;
+      font-size: 3rem;
+      color: #fff;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #fff;
+    }
+  }
+  & >*{
+    color: #fff;
+    padding: .5rem;
+  }
+  & h1{
+    font-size: 3rem;
+  }
+  & p{
+    font-size: 1.5rem;
+  }
+
+}
+.gallery-row{
+  padding-bottom: 1rem;
+
+  &>*:not(:last-child){
+    padding-bottom: 1rem;
+  }
+}
+
+.card-img-top {
+  height: 15rem;
+  object-fit: cover;
+}
+
+.input-form{
+  padding: .45rem 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.newsletter{
+  & h1{
+    color: #fff;
+
+  }
+  & p{
+    color: #fff;
+  }
+}
+
