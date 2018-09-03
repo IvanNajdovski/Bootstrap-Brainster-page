@@ -1,0 +1,17 @@
+.img-background{
+  height: 20rem;
+
+  background-size: cover;
+  background-position: center;
+
+  &-1{
+    background-image: url("../img/city3.jpg");
+  }
+  &-2{
+    background-image: url("../img/city4.jpg");
+  }
+  &-3{
+     background-image: url("../img/city5.jpg");
+   }
+
+}

@@ -12,7 +12,7 @@ html {
   font-weight: 500;
   padding: .5rem 1rem;
   margin-left: 1rem; }
-  .nav__list li > a:hover, .nav__list li > a:focus {
+  .nav__list li > a:hover, .nav__list li > a:focus, .nav__list li > a:active {
     border-left: 1px solid grey; }
 
 .carousel-castom {
@@ -23,6 +23,9 @@ html {
   @media only screen and (max-width: 75em) {
     .pic__size {
       height: 100%; } }
+
+.text__size {
+  height: 8rem; }
 
 .text__container {
   transform: translateY(-50%);
@@ -150,6 +153,27 @@ html {
 .pd-bg {
   padding: 4rem; }
 
+.pd-md {
+  padding: 2rem; }
+
+.pd-sm {
+  padding: 1rem; }
+
+.pd-xs {
+  padding: 0.5rem; }
+
+.pd-tb {
+  padding: 0.5rem 0; }
+
+.pd-t {
+  padding-top: 1rem; }
+
+.mg-tb {
+  margin: 1rem 0; }
+
+.mg-b {
+  margin-bottom: 1.5rem; }
+
 .button {
   background-color: transparent;
   border: 1px solid red;
@@ -180,3 +204,24 @@ html {
     color: #fff; }
   .text-color .fas-2 {
     font-size: 2.5rem; }
+
+.mg-down {
+  margin-bottom: 1rem; }
+
+.testemont {
+  padding: 1rem 0; }
+  .testemont h1 {
+    color: #fff; }
+  .testemont__quote p {
+    color: lightgray; }
+
+.img-background {
+  height: 20rem;
+  background-size: cover;
+  background-position: center; }
+  .img-background-1 {
+    background-image: url("../img/city3.jpg"); }
+  .img-background-2 {
+    background-image: url("../img/city4.jpg"); }
+  .img-background-3 {
+    background-image: url("../img/city5.jpg"); }

@@ -9,9 +9,17 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static(publicPath));
 
-// app.get("/", (req,res,next) =>{
-//     res.sendFile(path.join(__dirname, "/"));
-// });
+app.get("/blog", (req,res,next) =>{
+    res.sendFile(path.join(__dirname, "/blog.html"));
+});
+
+app.get("/contact", (req,res,next) =>{
+    res.sendFile(path.join(__dirname, "/contact.html"));
+});
+
+app.get("/services", (req,res,next) =>{
+    res.sendFile(path.join(__dirname, "/services.html"));
+});
 
 app.get("/about", (req,res,next) =>{
     res.sendFile(path.join(__dirname, "about.html"));
